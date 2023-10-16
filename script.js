@@ -27,9 +27,11 @@ const allCurrencies = async () => {
       el.classList.add(
         "col-12",
         "card",
-        "border-2",
+        "border-0",
         "border-start",
-        "border-primary"
+        "border-primary",
+        "border-2",
+        "shadow-sm"
       );
       const el2 = document.createElement("div");
       el2.classList.add("card-body");
